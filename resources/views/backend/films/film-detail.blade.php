@@ -7,7 +7,7 @@
         <p>{{ $film->description}}</p>
         <b>Type:</b>
         <p>{{ $film->type}}</p>
-        <b>Sell ticket:</b>
+        <b>Sold ticket:</b>
         <p>{{ $numberOfSellTickets }}</p>
         <b>Profit:</b>
         <p>{{ $profit }} VNĐ</p>

@@ -57,7 +57,6 @@ class LoginController extends Controller
                 return redirect()->route('users.store');
             }
         }
-        return redirect('login');
     }
 
     public function logout()
